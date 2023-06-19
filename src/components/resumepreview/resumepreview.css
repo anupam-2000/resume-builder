@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Proza+Libre&display=swap');
+
+.preview {
+    /* background: bisque; */
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.pdf {
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.green {
+    padding-top: 40px;
+    background-color: #3B3355;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+
+    margin-bottom: 30px;
+}
+
+
+
+.nm {
+    
+    text-align: center;
+    font-size: xx-large;
+    margin: auto;
+}
+
+.cm {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 0px 10px;
+    
+    
+}
+
+.cm_element {
+    padding-right: 30px;
+}
+
+
+.details {
+    padding-left: 30px;
+    /* border: 1px solid black; */
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list li {
+    display: flex;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    list-style-type: none; /* Remove default bullets */
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px; /* Add left padding to make space for the custom bullet */
+    align-items: center;
+  }
+  
+  .skills-list li:before {
+    content: "•"; /* Custom bullet character */
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    color: #ff0000; /* Set your desired color for the bullets */
+    
+  }
+  
+  
