@@ -7,6 +7,8 @@
   
 }
 
+
+
 html {
   text-decoration: none;
 }
@@ -16,8 +18,34 @@ a {
   cursor: pointer;
 }
 
+
+
 .app {
   width: 100%;
   overflow: hidden;
-  padding: 40px 20px 20px 20px;
+  
+}
+
+.head {
+  display: flex;
+  
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 0px 30px 40px;
+  border-radius: 0px 0px 15px 15px;
+  margin-bottom: 40px;
+  background-color: #212D40;
+  color: aliceblue;
+}
+
+.logo {
+  height: 100px;
+  margin-right: 20px;
+}
+
+
+.red {
+  color: rgb(174, 1, 1);
+  font-size: large;
+  font-style: italic;
 }

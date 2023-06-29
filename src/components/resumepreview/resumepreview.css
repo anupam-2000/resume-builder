@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Proza+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Proza+Libre&display=swap');
 
 .preview {
     /* background: bisque; */
     font-family: 'Poppins', sans-serif;
+    
+}
+
+h4 {
+    color: #023047;
+    background-color: #d6e3e9;
+    text-align: center;
+    font-size: larger;
 }
 
 a {
@@ -10,14 +19,12 @@ a {
     color: white;
 }
 
-.pdf {
-    border: 2px solid black;
-    margin-bottom: 20px;
-}
+
 
 .green {
     padding-top: 40px;
-    background-color: #3B3355;
+    padding-bottom: 40px;
+    background-color: #023047;
     color: white;
     border-radius: 0px 0px 10px 10px;
 
@@ -34,21 +41,23 @@ a {
 }
 
 .cm {
-    display: flex;
-    justify-content: center;
-    margin: 10px 10px 0px 10px;
-    
-    
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px 0px 10px;
 }
 
 .cm_element {
-    padding-right: 30px;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  align-items: center;
+  
 }
-
 
 .details {
     padding-left: 30px;
+    padding-right: 30px;
     /* border: 1px solid black; */
+    background-color: white;
 }
 
 .skills-list {
@@ -74,8 +83,56 @@ a {
     font-size: 30px;
     position: absolute;
     left: 0;
-    color: #ff0000; /* Set your desired color for the bullets */
+    color: #1080b7; /* Set your desired color for the bullets */
     
   }
   
   
+  .experience-item {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .company {
+    flex-basis: 40%;
+  }
+  
+  .detail {
+    margin-left: 40px;
+    flex-basis: 60%;
+  }
+
+  
+.skills-section,
+.profile-section,
+.experience-section,
+.education-section,
+.languages-section,
+.projects-section,
+.hobbies-section {
+  page-break-inside: avoid;
+  padding-top: 10px;
+  
+}
+
+
+.download {
+  margin-left: 30px;
+  margin-top: 50px;
+  
+  border-radius: 40px;
+  padding: 10px 20px 10px 20px;
+}
+
+
+.rp {
+  margin-bottom: 40px;
+}
+
+.gr {
+  color: #1e709a;
+}
+
+h2 {
+  color: #167469;
+}
