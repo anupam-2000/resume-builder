@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Proza+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Poppins:wght@300;400;500;600&family=Proza+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Caprasimo&family=Poppins:wght@300;400;500;600&family=Proza+Libre&family=Quicksand:wght@500&display=swap');
+
+.opening-animation {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease;
+    z-index: 9999;
+  }
+  
+  .slide-up {
+    animation-name: slideUpAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slideUpAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100vh);
+    }
+  }
+
+  .opening-animation img {
+    display: flex;
+    height: 250px;
+    margin-bottom: 20px; /* Add margin to create space between the image and the text */
+  }
+  
+  .opening-animation h1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center; /* Align the text to the center */
+    font-size: 40px; /* Adjust the font size as per your preference */
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .opening-animation h3 {
+    color: #89B6A5;
+    font-style: italic;
+    opacity: 0;
+    animation-name: fadeInAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

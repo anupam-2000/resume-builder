@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Proza+Libre&display=swap');
+
+.form {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 50px;
+  border-right: 3px solid #69A2B0;
+}
+
+label {
+  color: #0775ac;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.main {
+  color: #137468;
+  font-weight: bold;
+  font-size: large;
+  font-style: normal;
+}
+
+.margin {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btn-sm {
+  margin-bottom: 12px;
+  
+}
+
+
+.form-control {
+    border: 3px solid #0775ac;
+    border-radius: 20px;
+  }
+  
+  .tags {
+    border: 3px solid #0775ac;
+    padding: 10px;
+    border-radius: 40px;
+  }
+  
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    background-color: #B5DFCA;
+    color: black;
+    border-radius: 20px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 4px;
+    border: 1px solid #057b40;
+  }
+  
+  .remove-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: red; /* Set the color of the remove button */
+  }
+
+
+  .light {
+    font-weight: lighter;
+    color: #0775ac;
+    font-size: medium;
+  }
+
+  .generate {
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    margin-top: 30px;
+  }
+  
+  
